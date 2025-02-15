@@ -5,6 +5,7 @@ html, body {
     background-repeat: no-repeat;
     background-size: 100%;
     width: 800px;
+    background-color: #011610;
     
 }
 
@@ -48,6 +49,7 @@ html, body {
     flex-direction: column; /* Stack images vertically */
     align-items: center; /* Center them horizontally */
     justify-content: center; /* Center them inside the container */
+    gap: 0.2rem;
 
     
  }
@@ -56,11 +58,28 @@ html, body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
+    gap: 0.1rem;
     
 
  }
 
  .card-images img {
-    transform: scale(0.7); /* 70% of original size */
+    transform: scale(0.8); /* 70% of original size */
+}
+
+.card-winner {
+   color: #74e2c3;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 1em;
+}
+
+.cards-remaining {
+   color: white;
+   display: flex;
+   text-align: center;
+   
+   font-weight: bolder;
+   margin-top: 0;
+   margin-bottom: 0;
 }
